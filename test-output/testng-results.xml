@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-06T09:38:48 IST" name="Suite" finished-at="2025-09-06T09:39:44 IST" duration-ms="55805">
+    <groups>
+    </groups>
+    <test started-at="2025-09-06T09:38:48 IST" name="Test" finished-at="2025-09-06T09:39:44 IST" duration-ms="55805">
+      <class name="medimention.testCases.TC_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:medimention.testCases.TC_Login@3a52dba3]" started-at="2025-09-06T09:38:49 IST" name="setUp" finished-at="2025-09-06T09:39:02 IST" duration-ms="12731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://medimention.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="acc_Reg()[pri:0, instance:medimention.testCases.TC_Login@3a52dba3]" started-at="2025-09-06T09:39:02 IST" name="acc_Reg" finished-at="2025-09-06T09:39:44 IST" duration-ms="42364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acc_Reg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:medimention.testCases.TC_Login@3a52dba3]" started-at="2025-09-06T09:39:44 IST" name="tearDown" finished-at="2025-09-06T09:39:44 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- medimention.testCases.TC_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
